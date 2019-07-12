@@ -1,0 +1,250 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+background: #eff0f2;
+padding-top: 65px;
+padding-bottom: 196px;
+}
+.menu__item{
+text-align: center;
+width: 100%;	
+}
+.menu__item a{
+font-weight: 700;
+color: #000;
+opacity: 0.86;
+padding: 10px;
+}
+.menu__item a:hover{
+transition: 0.3s;
+background: #b2f2ee;
+text-decoration: none;
+color: #000;
+
+}
+li{
+list-style-type: none;	
+}
+ul, li{
+	display: block;
+}
+.menu{margin-top: 10px;
+padding: 0;}
+/*text*/
+.offer__title{
+text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+color: #505050;
+font-family: Montserrat, sans-serif;
+font-size: 45px;
+font-weight: 700;
+text-align: center;
+margin-top: 206px;
+text-transform: uppercase;
+margin-bottom:150px; 
+}
+.shopno{
+	color: #505050;
+background-color: #b2f2ee;
+
+}
+#button{
+
+color: #818182;
+font-family: Montserrat, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-transform: uppercase;
+width: 232px;
+height: 53px;
+border-radius: 2px;
+border: 2px solid #818182;
+text-align: center;
+margin-top: 150px; 
+}
+#button:hover{
+	background:#6df1e6; 
+	color:#505050;
+	transition: 0.3s;
+
+}
+.button{
+	text-align: center;
+}
+/*section1*/
+.section1{
+background: #f8fafa;
+padding-top: 125px;
+padding-bottom: 165px;
+}
+.s1-img{
+	margin-right: 110px;
+	float:left;
+
+}
+.text-s1-about{
+opacity: 0.9;
+color: #000000;
+font-family: Montserrat, sans-serif;
+font-size: 38px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 2.28px;
+text-align: center;
+}
+.text-s1-lorem{
+
+color: #5e5f5f;
+font-family: 'Merriweather', serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 1.08px;
+text-align: center;
+}
+.text-s1-we{
+
+padding-top: 20px;
+padding-bottom: 10px;
+
+color: #3f4040;
+font-family: Merriweather, serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+}
+.text-s1-p{
+
+
+
+color: #8a8b8b;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.8px;
+}
+.content{
+	margin-top: 144px;
+}
+.text-s1{
+	    padding-right: 30px;
+}
+/*section2*/
+.section2{
+padding-top: 125px;
+padding-bottom: 165px;
+}
+.s2-png{
+	padding-top: 120px;
+}
+/*SECTION3*/
+.s3{
+background: #f9fbfb;
+padding-top: 125px;
+padding-bottom: 165px;
+}
+
+.box {
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	
+}
+.img{
+width: 100%;
+}
+.box .infor {
+	position: absolute; left: -100%; bottom: 0;
+	color: #fff; background: rgba(0,0,0,0.5);
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+    opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.box .infor h3 {
+    line-height:40px;
+    font-size: 28px; color:#fff;
+    overflow: hidden; word-spacing: nowrap;
+    
+}
+.box:hover .infor {
+	opacity: 1; left: 0;
+}
+/*s-firms*/
+.s-firm{
+	padding-bottom: 108px;
+	padding-top: 107px;
+}
+/*footer*/
+footer{
+	background: #262b2e;
+	padding-bottom: 93px;
+	padding-top: 93px;
+}
+.t-follow{
+	/* Style for "FOLLOW US" */
+text-align: center;
+opacity: 0.8;
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+text-transform: uppercase;
+/* Text style for "F, OLLOW U" */
+letter-spacing: 0.16px;
+}
+.icon{
+	text-align: center;
+}
+.t-down{
+	/* Style for "Copyright" */
+text-align: center;
+opacity: 0.4;
+color: #ffffff;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+/* Text style for "C, opyrigh" */
+letter-spacing: 0.16px;
+padding-top: 40px;
+}
+/*media*/
+@media screen and (max-width: 992px){
+	.logo{
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+	#button{
+		display: block;
+		margin: 0 auto;
+	}
+	.comp{
+		width: 100%;
+		
+		
+	}
+	.s1-img{
+		float: none;
+		margin: 0 auto;
+	}
+	.text-s1-we{
+		text-align: center;
+	}
+	.text-s1-p{
+		text-align: center;
+	}
+	.text-s1{
+		padding-right: 0px;
+	}
+}
