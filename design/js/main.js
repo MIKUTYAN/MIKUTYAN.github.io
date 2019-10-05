@@ -1,0 +1,74 @@
+$(document).ready(function(){
+  $("#carousel").owlCarousel({
+  	loop: false,
+  	nav:false,
+  	dots:false,
+  	responsive:{
+        0:{
+            items:1,
+            dots:false,
+            nav:false,
+        },
+        768:{
+            items:2,
+        },
+        992:{
+            items:3,
+        },
+        1200:{
+            items:3,
+             nav:true,
+        }
+    }
+  });
+});
+$(document).ready(function(){
+  $("#carousel2").owlCarousel({
+    loop: false,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+            dots:false,
+            nav:false,
+        },
+        768:{
+            items:2,
+        },
+        992:{
+            items:3,
+        },
+        1200:{
+            items:3,
+             nav:true,
+        }
+    }
+  });
+});
+
+$(document).ready(function(){
+  $("#carousel3").owlCarousel({
+    loop: true,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2,
+            dots:false,
+            nav:false,
+        },
+        768:{
+            items:3,
+        },
+        992:{
+            items:4,
+        },
+        1200:{
+            items:5,
+             nav:true,
+        }
+    }
+  });
+});
+

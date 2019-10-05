@@ -1,0 +1,384 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+#h{
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: 'Exo', sans-serif;
+	
+	color: #ff6d6d;
+	letter-spacing: 3.2px;
+}
+
+
+header{
+ background: url(../img/1.png) repeat center/cover ;
+   margin:0 auto;
+   height: 810px;
+   background-attachment: fixed;
+}
+.header-title{
+margin-bottom: 50px;
+margin-top: 225px;
+text-align: center;
+vertical-align: middle;
+color: #282828;
+font-family: 'Exo', sans-serif;
+font-size: 60px;
+font-weight: 100;
+line-height: 75px;
+letter-spacing: 2.4px;
+}
+
+.header-button a{
+	
+background-color: #ff6d6d;
+
+padding: 18px 60px;
+
+
+border-radius: 3px;
+color:white;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Raleway', sans-serif;
+
+}
+.header-button a:hover{
+color:#ECECEC;
+text-decoration: none;
+background-color:#8185a3;
+transition: 0.5s;
+}
+.header-button{
+  text-align: center;
+}
+
+ .text-header{
+ 	/* Style for "* No need" */
+color:#767779;
+font-family: 'Exo', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 75px;
+text-align: center;
+
+ }
+ .block-gray{
+ 	width: 560px;
+ 	height: 724px;
+ 	background: url(../img/2.png) no-repeat ;
+ 	position: relative;
+ 	left:15%;
+ }
+.gl-text{
+	margin-top: 191px;
+
+}
+#dots{
+	color: #ff6d6d;
+}
+#h1{
+	font-weight: 500;
+	font-family: 'Exo', sans-serif;
+	margin-bottom: 45px;
+}
+#p{/* Style for "Aenean eu" */
+color: #868686;
+font-family: 'Exo', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+}
+/*s2*/
+#s2{
+	/*height: 675px;*/
+	background: url(../img/BG.png) repeat center/cover;
+	padding-bottom: 120px;
+
+}
+#s{
+
+color: #282828;
+font-family: Exo;
+font-size: 22px;
+font-weight: 500;
+line-height: 49.97px;
+/* Text style for "S, ome awe" */
+letter-spacing: 0.88px;
+}
+.png-s2{
+	margin:55px 140px;
+	margin-bottom: 20px;
+}
+/*s3*/
+#s3{
+	height: 550px;
+	background: url(../img/3.png)no-repeat -890px -100px;
+}
+.gl-text-s3{
+	margin-top: 141px;
+   
+}
+.macbook{
+	margin-top: 93px;
+margin-left: -80px;}
+/*s4*/
+#s4{
+	height: 640px;
+	background: url(../img/Group_4.png) black repeat center/cover;
+	background-attachment: fixed;
+}
+#jd{
+
+
+color: #ffffff;
+font-family: Exo;
+font-size: 22px;
+font-weight: 500;
+letter-spacing: 0.88px;
+}
+.CF{
+
+text-align: center;
+color: #ff6d6d;
+font-family: Exo;
+font-size: 16px;
+font-weight: 500;
+}
+#plogo{
+	width: 120px;
+	margin-top: 95px;
+   
+}
+.cube{
+	margin-top: 110px;
+	margin-bottom: 26px;
+}
+/*s5*/
+
+#s5{
+height: 754px;
+background: url(../img/0.png)no-repeat center bottom #f6f5f3;
+}
+/*try-now*/
+#try-now{
+
+height: 467px;
+background: #323969;
+}
+#over{
+color: #ffffff;
+font-family: Exo;
+font-size: 40px;
+font-weight: 500;
+
+
+letter-spacing: 1.6px;
+}
+.d30{
+text-align: center;
+color: #f6f5f3;
+margin-top: 37px;
+font-family: Exo;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.64px;
+}
+.input{
+padding-left: 29px;
+width: 263px;
+height: 49px;
+border-radius: 3px;
+background-color: #454c77;
+border: 1px solid ;
+color:#ffffff;
+}
+.input::placeholder{
+	color:#f6f5f3;
+}
+.try-now-btn a{
+display: block;
+padding-top: 14px;
+width: 258px;
+height: 50px;
+box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+border-radius: 3px;
+background-color: #ff6d6d;
+color:white;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Raleway', sans-serif;
+
+}
+.try-now-btn a:hover{
+color:#ECECEC;
+text-decoration: none;
+background-color:#8185a3;
+transition: 0.5s;
+}
+.try-now-btn{
+  text-align: center;
+}
+#arrow{
+	position: relative;
+	bottom: 18px;
+
+}
+/*s6*/
+#s6{
+
+	height: 333px;
+background: url(../img/3.png)no-repeat 1134px -800px;;
+}
+#h3{
+color: #282828;
+font-family: Exo;
+font-size: 22px;
+font-weight: 500;
+margin-top: 96px;
+
+}
+.input2{
+padding-left: 29px;
+width: 263px;
+height: 49px;
+border-radius: 3px;
+background-color: #f6f6f6;
+border: 1px solid #d5d5d8;
+color:#ffffff;
+}
+.input::placeholder{
+	color:#f6f5f3;
+}
+.div-point a{
+padding:13px 15px ;
+box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+border-radius: 3px;
+border: 1px solid #ff6d6d;
+background-color: #ff6d6d;
+position: relative;
+left: 208px;
+bottom: 35px;
+}
+.div-point a:hover{
+background-color:#8185a3;
+border: 1px solid #8185a3;
+transition: 0.5s;
+}
+.logo-4{
+	margin-left: 30px;
+}
+.owl-carousel .owl-item img {
+   
+    width: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+	.block-gray{
+		display: none;
+
+	}
+	.gl-text{
+		margin-bottom: 120px;
+	}
+.mac{
+width: 550px;
+	margin-top: 40px;
+
+}
+
+
+
+
+
+	/*
+	.logo{
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
+	#button{
+		display: block;
+		margin: 0 auto;
+	}
+	.comp{
+		width: 100%;
+		
+		
+	}
+	.s1-img{
+		float: none;
+		margin: 0 auto;
+	}
+	.text-s1-we{
+		text-align: center;
+	}
+	.text-s1-p{
+		text-align: center;
+	}
+	.text-s1{
+		padding-right: 0px;
+	}*/
+}
+@media screen and (max-width: 990px){
+	.mac{
+display: none;
+}
+.gl-text-s3{
+	margin-top: 60px;
+}
+.gl-text-s3>#h,.gl-text-s3>#h1>span{
+	color: white;
+}
+}
+
+
+@media screen and (max-width: 800px){
+	#s5{
+	background: #f6f5f3;
+	height: 500px;
+	}
+
+
+	}
+	@media screen and (max-width: 455px){
+	#s3>.gl-text-s3>#p{
+	color: white;
+         }
+	}
+
+	@media screen and (max-width: 1190px){
+		.input{
+      width: 220px;
+          }
+       .try-now-btn a{
+        width: 220px;
+	     }
+       }
+@media screen and (max-width: 990px){
+	.input{
+		margin-bottom: 20px;
+width: 100%;
+
+text-align: center;
+padding: 0;
+	}
+	.try-now-btn a{
+        width: 100%;
+	     }
+	     #try-now{
+	     	height: auto;
+	     }
+	     #h3{
+	     	display: none;
+	     }
+	     .helpc{display: none;}
+	}
