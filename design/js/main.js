@@ -1,0 +1,82 @@
+$(document).ready(function(){
+  $("#carousel").owlCarousel({
+  	loop: false,
+  	nav:false,
+  	dots:false,
+    margin:0,
+  	responsive:{
+        0:{
+            items:1,
+            dots:true,
+            nav:false,
+        },
+        768:{
+            items:2,
+            dots:true,
+        },
+        992:{
+            items:3,
+            dots:true,
+        },
+        1200:{
+            items:3,
+             nav:true,
+        }
+    }
+  });
+});
+$(document).ready(function(){
+  $("#carousel2").owlCarousel({
+    loop: false,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+            dots:true,
+            nav:false,
+        },
+        768:{
+            items:2,
+            dots:true,
+        },
+        992:{
+            items:3,
+            dots:true,
+        },
+        1200:{
+            items:3,
+             nav:true,
+        }
+    }
+  });
+});
+
+$(document).ready(function(){
+  $("#carousel3").owlCarousel({
+    loop: true,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2,
+            dots:false,
+            nav:false,
+        },
+        768:{
+            items:3,
+        },
+        992:{
+            items:4,
+        },
+        1200:{
+            items:5,
+             nav:false,
+        }
+    }
+  });
+});
+
+$('.div-point').click(function(){
+    alert('You click ,and send your email)')
+});
